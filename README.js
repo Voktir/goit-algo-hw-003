@@ -1,4 +1,4 @@
-```mermaid
+```mermaid:
 graph TD
     A[Початок] --> B{Системи моніторингу<br>(SIEM, CloudWatch, Azure Monitor)<br>виявляють аномалію};
     B --> C{Система безпеки/DevOps<br>отримує оповіщення};
